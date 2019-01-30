@@ -4,7 +4,7 @@ linear-gradient(
         rgba(40, 180, 131, 0.582),
         ),
 */
-
+/*HOME PAGE DTYLING*/
 *{
     margin: 0;
     padding: 0;
@@ -171,3 +171,53 @@ body{
     line-height: 4em;
     font-size: 1.1rem;
 }
+
+/* SIGN UP PAAGE*/
+#login-form{
+    padding:4rem;
+    background-color: whitesmoke;
+    height: 80vh;
+    text-align: center;
+    font-size: 1.4rem;
+    width:80%;
+    margin: auto;
+    padding: auto;
+}
+input[type=text], input[type=password] {
+    width: 80%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+   border-radius:.9rem;
+  }
+
+
+
+button {
+    
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    font-size: 1.8rem;
+    background-color: #F82525;
+    color: white;
+    padding: 12px 18px;
+    border-radius:.7rem;
+  }
+  .login-container img{
+      width:10rem;
+      height: 10rem;
+      
+  }
+  .login-container a{
+    text-decoration: none;
+    color: #F82525;
+  }
+
+
+
+
