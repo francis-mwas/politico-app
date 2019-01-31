@@ -21,6 +21,9 @@ body{
     background-color: #F82525;
     height: 10vh;
 }
+.admin-dashboard{
+    background-color: teal !important;
+}
 .nav{
     float: right;
 }
