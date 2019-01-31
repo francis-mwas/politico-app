@@ -174,12 +174,12 @@ body{
 
 /* SIGN UP PAAGE*/
 #login-form{
-    padding:4rem;
+    padding: 1.5rem;
     background-color: whitesmoke;
-    height: 80vh;
+    height: auto;
     text-align: center;
     font-size: 1.4rem;
-    width:80%;
+    width: 55%;
     margin: auto;
     padding: auto;
 }
@@ -192,10 +192,7 @@ input[type=text], input[type=password] {
     margin-top: 6px; 
     margin-bottom: 16px; 
    border-radius:.9rem;
-  }
-
-
-
+}
 button {
     
     margin: 8px 0;
@@ -211,8 +208,8 @@ button {
   .login-container img{
       width:10rem;
       height: 10rem;
-      
   }
+  
   .login-container a{
     text-decoration: none;
     color: #F82525;
