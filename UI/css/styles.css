@@ -21,6 +21,9 @@ body{
     background-color: #F82525;
     height: 10vh;
 }
+.admin-dashboard{
+    background-color: teal !important;
+}
 .nav{
     float: right;
 }
@@ -216,6 +219,89 @@ button {
     color: #F82525;
   }
 
+/* user profile page design */
+#profile-page{
+   
+    background: whitesmoke;
+    border-radius: 8px;
+}
+#profile-page h1{
+    text-align: center;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.3rem solid #130101;;
+}
+.profile-container{
+       /* padding: 3rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profile-container__sidebar{
+    width: 20rem;
+    height: 60vh;
+    background-color: #22313F;
+    float: left;
+}
+.profile-container__sidebar h4{
+    text-align: center;
+    padding-top: .1rem;
+    color:whitesmoke;
+}
+.profile-container__sidebar ul > li{
+    text-decoration: none;
+    margin: 1.5rem;
+    list-style: none;
+}
+.profile-container__sidebar ul > li a{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
 
+/* Main sidebar styling */
+.profile-container__main--section{
+    width: 80rem;
+    float: right;
+    background: teal;
+    display: flex;
+}
+.profile-container__main--section .profile-panel{
+    width: 12rem;
+    height: 10rem;
+    background: #ECEFF1;
+    margin-left: 10px;
+    margin-top: 1rem;
+    border-radius: 5px;
 
+}
+.profile-container__main--section a{
+ color:whitesmoke;
+ text-decoration: none;
+}
+.profile-container__main--section a{
+    color:whitesmoke;
+    text-decoration: none;
+   }
+.profile-container__main--section a:active{
+    color:whitesmoke;
+    text-decoration: none;
+}
+      
+
+.profile-panel__body{
+    padding: .5rem;
+    color: teal;
+}
+.profile-panel__body h4{
+    padding: .5rem;
+}
+.profile-panel__body .fa{
+    padding: .5rem;
+    font-size:5rem;
+    margin-left:2.5rem;
+}
+
+ 
   
