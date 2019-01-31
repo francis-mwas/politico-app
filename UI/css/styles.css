@@ -8,7 +8,10 @@ linear-gradient(
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box; 
+    box-sizing:content-box;
 }
 
 body{
@@ -195,7 +198,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
-   border-radius:.9rem;
+   border-radius:.7rem;
 }
 button {
     
@@ -303,5 +306,33 @@ button {
     margin-left:2.5rem;
 }
 
- 
+ /* Create party styling */
+ .profile-container__main--section .create-party-form{
+     width: 40rem;
+     margin-left: 13rem;
+     color: whitesmoke;
+    
+     
+ }
+ .create-party-form .top-header{
+     padding: 1rem;
+     text-align: center;
+     font-size: 18px;
+ }
+
+.create-party-form .btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem;
+    
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 1.5rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #22313F;
+    color: #fff;
+}
   

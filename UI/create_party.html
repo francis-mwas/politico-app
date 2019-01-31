@@ -4,52 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Create account</title>
+    <title>Admin Dashboard - create party</title>
     <!-- fontawosome--->
     <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link href="css/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">  -->
     <!-- custom css styling import-->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- header -->
-    <header class="header-1">
-        <div class="nav-brand"><a href="index.html">politico voting portal</a></div>
+    <header class="header-1 admin-dashboard">
+        <div class="nav-brand admin-dashboard"><a href="index.html">politico voting portal</a></div>
         <ul class="nav">
             <li><a href="index.html"> <i class="fa fa-home"></i> Home</a></li>
             <li><a href="about.html"><i class="fa fa-info"></i> About</a></li>
             <li><a href="contact.html"><i class="fa fa-mobile"></i> Contact</a></li>
-            <li><a href="user-login.html"><i class="fa fa-sign-in"></i> Login</a></li>
+            <li><a href="user-login.html"><i class="fa fa-sign-out"></i> Logout</a></li>
         </ul>
     </header>
     <!-- end header -->
     <!-- start login-form section to handle form -->
-    <section id="login-form">
-        <div class="login-container">
-        <h4>Register to get started.</h4>
-        <img src="images/p5.png">
-            <form action="user-login.html">
-                    <label for="username"><b>firstname:</b></label>
-                    <input type="text" placeholder="Enter your firstname" name="firstname">
-                    <label for="lastname"><b>lastname:</b></label>
-                    <input type="text" placeholder="Enter your lastname" name="lastname">
+    <section id="profile-page">
+         <h1>Politico Admin Dashboard</h1>
+      <div class="profile-container">
+         
+        <div class="profile-container__sidebar">
+            <h4><b>Admin Dashboard.</b></h4>
+            <ul>
+                <li><a href="admin_dashboard.html">Dashboard</a></li>
+                <li><a href="#">Create a politica party</a></li>
+                <li><a href="#">Create a government office</a></li>
+                <li><a href="#">profile settings</a></li>
+                <li><a href="index.html">Log out</a></li>
 
-                    <label for="email"><b>email:</b></label>
-                    <input type="text" placeholder="Enter your email" name="email">
-
-                    <label for="phone"><b>Phone:</b></label>
-                    <input type="text" placeholder="Enter your phone number" name="phone">
-
-                    <label for="nation_id"><b>Nation id:</b></label>
-                    <input type="text" placeholder="Enter national id no" name="nation_id">
-
-                    <label for="password"><b>Password:</b></label>
-                    <input type="password" placeholder="Enter your password" name="password">
-
-                    
-                    <button onclick="location.href='user-login.html'" type="button">Sign Up</button>
-            </form>
-            <h4>Already have an account? <a href="user-login.html">Sign In</a></h4>
-        </div>
+            </ul>
+         </div>
+        
+         <div class="profile-container__main--section">
+             <div class="create-party-form">
+                 <div class="top-header"><h4>Create a new political party.</h4></div>
+                <form action="" method="">
+                        <label for="username"><b>Party Name:</b></label>
+                        <input type="text" placeholder="Enter party name" name="party_name">
+                        <label for="lastname"><b>Party slogan:</b></label>
+                        <input type="text" placeholder="Enter party slogan" name="party_slogan">
+    
+                        <label for="email"><b>Chairman:</b></label>
+                        <input type="text" placeholder="Enter your email" name="chairman">
+    
+                        <label for="phone"><b>Contacts:</b></label>
+                        <input type="text" placeholder="Enter party contact" name="phone">
+    
+                        <label for="phone"><b>Party_Email:</b></label>
+                        <input type="text" placeholder="Enter party contact" name="phone">
+                        <button onclick="location.href='user-login.html'" type="button" class="btn">Create party</button>
+                </form>
+                </div>
+         </div>
+      </div>
     </section>
     <!-- end login-form section -->
     <!-- start footer section -->
