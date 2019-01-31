@@ -327,7 +327,7 @@ button {
     
     margin-top: 5px;
     display: inline-block;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     transition: all .2s;
     position: relative;
     font-size: 1rem;
@@ -335,4 +335,66 @@ button {
     background: #22313F;
     color: #fff;
 }
-/* create political office styling */
+/* delete political party styling */
+.main-panel {
+    width: 63rem;
+    float: right;
+    margin-left: 5px;
+    background: whitesmoke !important;
+
+}
+.main-panel .btn-1{
+    color:whitesmoke;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem;
+    left: 38px;
+    margin-top: 15px;
+    display: inline-block;
+    border-radius: 1.5rem;
+    position: relative;
+    font-size: 1rem;
+    cursor: pointer;
+    background: teal;
+    
+
+}
+.table {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td,
+  th {
+    border: .1rem solid #dddddd;
+    text-align: left;
+    padding: .8rem;
+  }
+  
+  tr:nth-child(even) {
+    background-color:teal;
+    color: #fff;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #EEEEEE;
+    color: #2C3E50;
+  }
+.delete a {
+    color: #ECF0F1;
+    background: #f44336;
+    padding: .8rem;
+    border-radius: .9rem;
+  }
+  .update a {
+    color: #ECF0F1;
+    background: #ff8f00;
+    padding: .9rem;
+    border-radius: .9rem;
+  }
