@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Admin Dashboard</title>
+    <title>User Dashboard-view offices </title>
     <!-- fontawosome--->
     <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- <link href="css/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">  -->
@@ -25,79 +25,63 @@
     <!-- end header -->
     <!-- start login-form section to handle form -->
     <section id="profile-page">
-         <h1>Politico Admin Dashboard</h1>
+         <h1>Politico User Dashboard</h1>
       <div class="profile-container">
          
         <div class="profile-container__sidebar">
-            <h4><b>Admin Dashboard.</b></h4>
+            <h4><b>User Dashboard.</b></h4>
             <ul>
-                <li><a href="admin_dashboard.html">Dashboard</a></li>
-<<<<<<< HEAD
-                <li><a href="create_party.html">Create a political party</a></li>
-                <li><a href="create_office.html">Create a government office</a></li>
-                <li><a href="delete_party.html">Delete party</a></li>
-=======
-                <li><a href="create_party.html">Create a politica party</a></li>
-                <li><a href="create_office.html">Create a government office</a></li>
->>>>>>> 0a332ef69103d9e01b6e3ef0043b6b1e385924d1
+                <li><a href="user-profile.html">Dashboard</a></li>
+                <li><a href="view_all_parties.html">View political parties</a></li>
+                <li><a href="view_all_politicians.html">View all politicians</a></li>
+                <li><a href="view_offices.html">Political offices</a></li>
+                <li><a href="become_candidate.html">Declare your candidature</a></li>
                 <li><a href="#">profile settings</a></li>
-                
                 <li><a href="index.html">Log out</a></li>
-
             </ul>
          </div>
         
          <div class="profile-container__main--section">
-
-            <a href="create_party.html">
-             <div class="profile-panel">
-                 <div class="profile-panel__body">
-                    <h4>Create new political party</h4>
-                    <i class="fa fa-users"></i>
-                </div>
-             </div>
-            </a>
-
-             <a href="create_office.html">
-             <div class="profile-panel">
-                    <div class="profile-panel__body">
-                       <h4>Create new political office</h4>
-                       <i class="fa fa-university"></i>
-                   </div>
-                </div>
-             </a>
-
-                <a href="#">
-                <div class="profile-panel">
-                        <div class="profile-panel__body">
-                           <h4>View all voters</h4>
+            <div class="main-panel">
+                <h4 class="top-title">View all political offices</h4>
+                <div class="table">
+                    <table>
+                        <tr>
+                            <th>Office Name</th>
+                            <th>Position</th>
+                            <th>Minimum level of education</th>
+                            <th>Election date</th>
+                            <th>Age limit</th>
+                            <th>Date created</th>
                            
-                           <i class="fa fa-users"></i>
-                       </div>
-                    </div>
-                </a>  
-
-<<<<<<< HEAD
-                <a href="delete_party.html">
-=======
-                <a href="view_all_politicians.html">
->>>>>>> 0a332ef69103d9e01b6e3ef0043b6b1e385924d1
-                <div class="profile-panel">
-                        <div class="profile-panel__body">
-                            <h4>View all parties</h4>
-                            <i class="fa fa-users"></i>
-                     </div>
-                </div> 
-               </a>    
-
-                 <a href="account_settings.html">
-                <div class="profile-panel">
-                        <div class="profile-panel__body">
-                            <h4>Account settings</h4>
-                            <i class="fa fa-cogs"></i>
-                     </div>
-                </div>   
-                </a> 
+                        </tr>
+                        <tr>
+                            <td>Office of the governor</td>
+                            <td>County governor</td>
+                            <td>Undergraduate</td>
+                            <td>22/01/2022</td>
+                            <td>30</td>
+                            <td>12/01/2019</td>
+                        </tr>
+                        <tr>
+                            <td>Office of Mp</td>
+                            <td>Member of parliament</td>
+                            <td>Undergraduate</td>
+                            <td>22/01/2022</td>
+                            <td>30</td>
+                            <td>12/01/2019</td>
+                        </tr>
+                        <tr>
+                            <td>MCA office</td>
+                            <td>Member of county assebmly</td>
+                            <td>Diploma</td>
+                            <td>22/01/2022</td>
+                            <td>30</td>
+                            <td>12/01/2019</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
          </div>
       </div>
     </section>
