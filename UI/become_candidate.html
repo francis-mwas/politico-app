@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>User Dashboard</title>
+    <title>User Dashboard-become candidate </title>
     <!-- fontawosome--->
     <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- <link href="css/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">  -->
@@ -13,13 +13,13 @@
 </head>
 <body>
     <!-- header -->
-    <header class="header-1">
-        <div class="nav-brand"><a href="index.html">politico voting portal</a></div>
+    <header class="header-1 admin-dashboard">
+        <div class="nav-brand admin-dashboard"><a href="index.html">politico voting portal</a></div>
         <ul class="nav">
             <li><a href="index.html"> <i class="fa fa-home"></i> Home</a></li>
             <li><a href="about.html"><i class="fa fa-info"></i> About</a></li>
             <li><a href="contact.html"><i class="fa fa-mobile"></i> Contact</a></li>
-            <li><a href="user-login.html"><i class="fa fa-sign-in"></i> Login</a></li>
+            <li><a href="user-login.html"><i class="fa fa-sign-out"></i> Logout</a></li>
         </ul>
     </header>
     <!-- end header -->
@@ -31,63 +31,46 @@
         <div class="profile-container__sidebar">
             <h4><b>User Dashboard.</b></h4>
             <ul>
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">View political parties</a></li>
-                <li><a href="#">Political offices</a></li>
-                <li><a href="#">profile settings</a></li>
-                <li><a href="become_candidate.html">Declare your candidature</a></li>
-                <li><a href="index.html">Log out</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">View political parties</a></li>
+                    <li><a href="#">Political offices</a></li>
+                    <li><a href="#">profile settings</a></li>
+                    <li><a href="become_candidate.html">Declare your candidature</a></li>
+                    <li><a href="index.html">Log out</a></li>
 
             </ul>
          </div>
         
          <div class="profile-container__main--section">
-
-            <a href="politicians.html">
-             <div class="profile-panel">
-                 <div class="profile-panel__body">
-                    <h4>View all politicians</h4>
-                    <i class="fa fa-users"></i>
-                </div>
-             </div>
-            </a>
-
-             <a href="parties.html">
-             <div class="profile-panel">
-                    <div class="profile-panel__body">
-                       <h4>View all political parties</h4>
-                       <i class="fa fa-flag-o"></i>
-                   </div>
-                </div>
-             </a>
-
-                <a href="political_offices.html">
-                <div class="profile-panel">
-                        <div class="profile-panel__body">
-                           <h4>View all political offices</h4>
-                           <i class="fa fa-home"></i>
-                       </div>
-                    </div>
-                </a>  
-
-                <a href="apirants.html">
-                <div class="profile-panel">
-                        <div class="profile-panel__body">
-                            <h4>Run for office</h4>
-                            <i class="fa fa-university"></i>
-                     </div>
-                </div> 
-               </a>    
-
-                 <a href="account_settings.html">
-                <div class="profile-panel">
-                        <div class="profile-panel__body">
-                            <h4>Account settings</h4>
-                            <i class="fa fa-cogs"></i>
-                     </div>
-                </div>   
-                </a> 
+             <div class="create-party-form">
+                 <div class="top-header"><h4>Declare your candidature by filling the form below.</h4></div>
+                   <!-- start login-form section to handle form -->
+   
+           
+         
+                <form action="user-login.html">
+                         <h3>Full name</h3>
+                        <input type="text" placeholder="Enter your fullname" name="fullname">
+                        <h3>Nation id number</h3>
+                        <input type="text" placeholder="Enter your national id number" name="id_number">
+    
+                        <h3>Position/Office</h3>
+                        <input type="text" placeholder="position" name="position">
+    
+                        <h3>Your party</h3>
+                        <input type="text" placeholder="Enter your party" name="party">
+    
+                        <h3>County</h3>
+                        <input type="text" placeholder="Enter your county" name="county">
+                        <h3>Level of education</h3>
+                        <input type="text" placeholder="Enter your level of education" name="education">
+                        
+    
+                        
+                        <button onclick="location.href='user-login.html'" type="button" class="btn">Declare</button>
+                </form>
                 
+            </div>
          </div>
       </div>
     </section>
