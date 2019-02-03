@@ -204,7 +204,7 @@ input[type=text], input[type=password] {
     margin-bottom: 16px; 
    border-radius:.7rem;
 }
-button {
+button{
     
     margin: 8px 0;
     border: none;
@@ -216,6 +216,7 @@ button {
     padding: 12px 18px;
     border-radius:.7rem;
   }
+
   .login-container img{
       width:10rem;
       height: 10rem;
