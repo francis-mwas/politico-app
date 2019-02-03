@@ -29,28 +29,32 @@ body{
 }
 .nav{
     float: right;
+    margin-top: 1rem;
 }
 .nav-brand{
     float: left;
     text-transform: uppercase;
     line-height: 1.5;
-    margin:.5rem;
+    margin-top:.9rem;
     color:#fff;
-	font-style: italic;
+    font-style: italic;
+    font-size: 1.8rem;
 }
 .nav-brand a{
     text-decoration: none;
     color: whitesmoke;
 }
 .nav-brand a:hover{
-    color:  #4b5320;
+    color:  #000;
 }
 
 .nav li{
    
     display: inline;
-    font-size:1.2rem;
+    font-size:1.3rem;
     margin-right:1rem;
+    font-weight: 400;
+
 
       }
 .nav li a{
@@ -200,7 +204,7 @@ input[type=text], input[type=password] {
     margin-bottom: 16px; 
    border-radius:.7rem;
 }
-button {
+button{
     
     margin: 8px 0;
     border: none;
@@ -212,6 +216,7 @@ button {
     padding: 12px 18px;
     border-radius:.7rem;
   }
+
   .login-container img{
       width:10rem;
       height: 10rem;
@@ -220,6 +225,12 @@ button {
   .login-container a{
     text-decoration: none;
     color: #F82525;
+    font-size:1rem;
+  }
+.login-container a:hover{
+    text-decoration: none;
+    color: teal;
+    font-size:1rem;
   }
 
 /* user profile page design */
