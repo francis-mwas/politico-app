@@ -8,16 +8,16 @@
     <!-- fontawosome--->
     <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- custom css styling import-->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <!-- header -->
     <header class="header-1">
-        <div class="nav-brand"><a href="index.html">politico voting portal</a></div>
+        <div class="nav-brand"><a href="../index.html">politico voting portal</a></div>
         <ul class="nav">
-            <li><a href="index.html"> <i class="fa fa-home"></i> Home</a></li>
-            <li><a href="about.html"><i class="fa fa-info"></i> About</a></li>
-            <li><a href="contact.html"><i class="fa fa-mobile"></i> Contact</a></li>
+            <li><a href="../index.html"> <i class="fa fa-home"></i> Home</a></li>
+            <li><a href="../index.html"><i class="fa fa-info"></i> About</a></li>
+            <li><a href="../index.html"><i class="fa fa-mobile"></i> Contact</a></li>
             <li><a href="user-login.html"><i class="fa fa-sign-in"></i> Login</a></li>
         </ul>
     </header>
@@ -25,16 +25,19 @@
     <!-- start login-form section to handle form -->
     <section id="login-form">
         <div class="login-container">
-        <h4>Fill the fom below to reset your password.</h4>
-        <img src="images/p5.png">
+        <h4>Login if already have an account</h4>
+        <img src="../images/p5.png">
             <form action="" method="POST">
-                <b>Enter Username:</b><br />
-                <input type="text" placeholder="Enter your username" name="username" required>
-                <br />
-                <b>New Password:</b>
-                <input type="password" placeholder="Enter new password" name="password" required>
-                <button type="submit">Reset</button>
+                    <label for="username"><b>Username:</b></label>
+                    <input type="text" placeholder="Enter your username" name="username" required>
+                    <label for="password"><b>Password:</b></label>
+                    <input type="password" placeholder="Enter password" name="password" required>
+                    <button onclick="location.href='user-profile.html'" type="button">Sign In</button>
             </form>
+            <h5>Not yet registered? <a href="register.html">Sign Up</a></h5>
+            <h6>Forgot password? <a href="reset_password.html">reset here</a></h6>
+            <h6><a href="../admin_views/admin_dashboard.html">Admin login</a></h6>
+
         </div>
     </section>
     <!-- end login-form section -->
