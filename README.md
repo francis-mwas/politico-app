@@ -12,13 +12,13 @@ Politico is an application that enables citizens give their mandate to politicia
 - Normal users can be able to view their votes and the candidate    they have voted for
 - Politcian user can file a petition against a concluded            political office election
 
-## To view politico app demo, click the link below:
+## To view politico app demo click the link below:
    https://francis-mwas.github.io/politico-app/UI
+   
 
 
-## Politico app pivotal tracker stories:
-
-    https://www.pivotaltracker.com/n/projects/2241744
-
+## To view politico app pivotal tracker stories:
+   https://www.pivotaltracker.com/n/projects/2241744
 
 
+### Author: Francsi mwangi
