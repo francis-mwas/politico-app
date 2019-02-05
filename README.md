@@ -14,12 +14,11 @@ Politico is an application that enables citizens give their mandate to politicia
 
 ## To view politico app demo click the link below:
    https://francis-mwas.github.io/politico-app/UI
+   
+
+
+## To view politico app pivotal tracker stories:
    https://www.pivotaltracker.com/n/projects/2241744
-
-
-## Politico app pivotal tracker stories:
-    https://www.pivotaltracker.com/n/projects/2241744
-
 
 
 ### Author: Francsi mwangi
