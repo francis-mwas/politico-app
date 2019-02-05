@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Admin Dashboard-create office </title>
+    <title>Admin Dashboard - edit party</title>
     <!-- fontawosome--->
-    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- <link href="css/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">  -->
     <!-- custom css styling import-->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <!-- header -->
     <header class="header-1 admin-dashboard">
-        <div class="nav-brand admin-dashboard"><a href="index.html">politico voting portal</a></div>
+        <div class="nav-brand admin-dashboard"><a href="../index.html">politico voting portal</a></div>
         <ul class="nav">
-            <li><a href="index.html"> <i class="fa fa-home"></i> Home</a></li>
-            <li><a href="about.html"><i class="fa fa-info"></i> About</a></li>
-            <li><a href="contact.html"><i class="fa fa-mobile"></i> Contact</a></li>
-            <li><a href="user-login.html"><i class="fa fa-sign-out"></i> Logout</a></li>
+            <li><a href="admin_dashboard.html"> <i class="fa fa-home"></i> Home</a></li>
+            <li><a href="../index.html"><i class="fa fa-info"></i> About</a></li>
+            <li><a href="../index.html"><i class="fa fa-mobile"></i> Contact</a></li>
+            <li><a href="../index.html"><i class="fa fa-sign-out"></i> Logout</a></li>
         </ul>
     </header>
     <!-- end header -->
@@ -32,32 +32,32 @@
             <h4><b>Admin Dashboard.</b></h4>
             <ul>
                 <li><a href="admin_dashboard.html">Dashboard</a></li>
-
                 <li><a href="create_party.html">Create a politica party</a></li>
-
                 <li><a href="create_office.html">Create a government office</a></li>
-                <li><a href="delete_party.html">Delete party</a></li>
-
                 <li><a href="admin_politicians.html">view politicians</a></li>
-                
-                <li><a href="index.html">Log out</a></li>
+                <li><a href="../user_views/user-login.html">Log out</a></li>
 
             </ul>
          </div>
         
          <div class="profile-container__main--section">
              <div class="create-party-form">
-                 <div class="top-header"><h4>Create a new political office.</h4></div>
+                 <div class="top-header"><h4>Update this political party details.</h4></div>
                 <form action="" method="">
-                        <label for="office_name"><b>Office_name:</b></label>
-                        <input type="text" placeholder="Enter office name" name="office_name">
-                        <label for="position"><b>Position:</b></label>
-                        <input type="text" placeholder="Enter position" name="position">
+                        <label for="username"><b>Party Name:</b></label>
+                        <input type="text" placeholder="Enter party name" name="party_name" value="CCM">
+                        <label for="lastname"><b>Party slogan:</b></label>
+                        <input type="text" placeholder="Enter party slogan" name="party_slogan" value="Pesa mashinani">
     
-                        <label for="election_date"><b>Election_date:</b></label>
-                        <input type="text" placeholder="Date of an election" name="election_date">
+                        <label for="email"><b>Chairman:</b></label>
+                        <input type="text" placeholder="Enter your email" name="chairman" value="John doe">
     
-                        <button onclick="location.href='user-login.html'" type="button" class="btn">Create office</button>
+                        <label for="phone"><b>Contacts:</b></label>
+                        <input type="text" placeholder="Enter party contact" name="phone" value="+254717445860">
+    
+                        <label for="phone"><b>Party_Email:</b></label>
+                        <input type="text" placeholder="Enter party contact" name="phone" value="ccm@gmail.com">
+                        <button onclick="location.href='delete_party.html'" type="button" class="btn">Update party</button>
                 </form>
                 </div>
          </div>
