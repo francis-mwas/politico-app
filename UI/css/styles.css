@@ -4,11 +4,6 @@
     }
 }
 
-@media ( min-width :321px) {
-    #footer {
-        width:100%;
-    }
-}
 
 @media ( min-width :640px) {
     #footer {
@@ -237,16 +232,6 @@ table {
 
 
 
-  /* Desktop Styles */
-  @media only screen and (min-width: 961px) {
-    #primary-5{
-         
-        display: inline-block;
-        /* width: 100%; */
-      }
-  }
-  
-
 
 
 
@@ -429,7 +414,8 @@ body{
     font-weight: bold;
 }
 #card{
-	padding-top: 2rem;
+    padding-top: 2rem;
+    width: 100%;
 }
 .cards{
     background-color:whitesmoke;
