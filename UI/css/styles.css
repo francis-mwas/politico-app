@@ -445,7 +445,7 @@ body{
 
 #footer{
     border-top: 6px solid whitesmoke;
-	padding: 20px 40px;
+	
 	color:whitesmoke;
     background-color: #130101;
     height: 50vh;
@@ -683,7 +683,7 @@ button{
   th {
     border: .1rem solid #dddddd;
     text-align: left;
-    padding: .8rem;
+    padding: 1.2rem;
   }
   
   tr:nth-child(even) {
