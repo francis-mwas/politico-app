@@ -16,7 +16,7 @@ function submitForm(event){
     let othername = document.querySelector('#othername').value;
     let email = document.querySelector('#email').value;
     let phoneNumber = document.querySelector('#phone').value;
-    let passportUrl = document.querySelector('#passportUrl').files[0].name;
+    let passportUrl = document.querySelector('#passportUrl').value;
     let password = document.querySelector('#password').value;
 
     let register_url = `${proxy}https://politico-app-api-v1.herokuapp.com/api/v2/auth/signup`
@@ -38,7 +38,7 @@ function submitForm(event){
     })
     .then(response => response.json())
     .then(data => {
-        console.log(data.message)
+        console.log(data.Message)
     })
     .catch(err => console.log(err))
     
