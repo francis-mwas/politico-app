@@ -5,12 +5,12 @@ Politico is an application that enables citizens give their mandate to politicia
 ## How politico app works
 - An admin creates a political party
 - An admin creates political offices
-- Politicians show their interest to run for a particular           government office
+- Politicians show their interest to run for a particular government office
 - Normal users creates an account
 - Normal users with an account can login
-- Normal users who are qualified to vote, can search for            government offices and vote their prffered candidate to           represent them.
-- Normal users can be able to view their votes and the candidate    they have voted for
-- Politcian user can file a petition against a concluded            political office election
+- Normal users who are qualified to vote, can search for government offices and vote their prffered candidate to represent them.
+- Normal users can be able to view their votes and the candidate they have voted for
+- Politcian user can file a petition against a concluded political office election
 
 ## To view politico app demo click the link below:
    https://francis-mwas.github.io/politico-app/UI
